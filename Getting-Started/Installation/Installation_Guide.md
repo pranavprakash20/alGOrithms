@@ -1,5 +1,5 @@
 ===============================================================================================================================================================================================================================================================================================================
-#LINUX
+# LINUX
 
 Remove any previous Go installation by deleting the /usr/local/go folder (if it exists), then extract the archive you just downloaded into /usr/local, creating a fresh Go tree in /usr/local/go:
 $ rm -rf /usr/local/go && tar -C /usr/local -xzf go1.18.4.linux-amd64.tar.gz
@@ -18,13 +18,13 @@ $ go version
 Confirm that the command prints the installed version of Go.
 ===============================================================================================================================================================================================================================================================================================================
 
-#Mac
+# Mac
 
 Open the package file you downloaded and follow the prompts to install Go.
 The package installs the Go distribution to /usr/local/go. The package should put the /usr/local/go/bin directory in your PATH environment variable. You may need to restart any open Terminal sessions for the change to take effect.
 
 Verify that you've installed Go by opening a command prompt and typing the following command:
-$ go version
+go version
 Confirm that the command prints the installed version of Go.
 
 
